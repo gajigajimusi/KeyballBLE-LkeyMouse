@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                              &kp Y         &kp U  &kp I      &kp O       &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp TAB                     &kp AT_SIGN    &kp H         &kp J  &kp K      &lt 5 L     &lt_to_layer_0 4 MINUS
-&mt LSHIFT Z      &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LC(Z)      &kp RC(Z)      &kp N         &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT QMARK
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 INT4       &kp BACKSPACE  &kp KP_ENTER                                &kp ESC
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                            &kp Y          &kp U  &kp I      &kp O       &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G                   &kp TAB                     &kp AT_SIGN  &kp H          &kp J  &kp K      &lt 5 L     &lt_to_layer_0 4 KP_ENTER
+&mt LSHIFT Z      &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LC(Z)      &kp RC(Z)    &kp N          &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT QMARK
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 INT4       &kp MINUS    &kp BACKSPACE                                &kp ESC
             >;
         };
 
