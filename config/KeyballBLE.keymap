@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W         &kp E             &kp R      &kp T                                                             &kp Y          &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S         &kp D             &kp F      &kp G                &kp TAB                     &kp AT_SIGN      &kp H          &kp J  &kp K      &kp L       &lt_to_layer_0 4 ENTER
-&kp Z       &kp X         &kp C             &kp V      &kp B                &lt_to_layer_0 6 LC(C)      &kp PRINTSCREEN  &kp N          &kp M  &kp COMMA  &kp PERIOD  &lt_to_layer_0 5 QUESTION
-&kp LSHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &lt_to_layer_0 1 F7  &lt_to_layer_0 2 INT4       &kp MINUS        &kp BACKSPACE                                &mt LEFT_GUI ESC
+&kp Q       &kp W         &kp E             &kp R             &kp T                                                                &kp Y          &kp U  &kp I      &kp O               &kp P
+&kp A       &kp S         &kp D             &kp F             &kp G                   &kp TAB                     &kp AT_SIGN      &kp H          &kp J  &kp K      &lt_to_layer_0 5 L  &lt_to_layer_0 4 ENTER
+&kp Z       &kp X         &kp C             &kp V             &kp B                   &lt_to_layer_0 6 LC(C)      &kp PRINTSCREEN  &kp N          &kp M  &kp COMMA  &kp PERIOD          &lt_to_layer_0 5 QUESTION
+&kp LSHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_CONTROL  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 INT4       &kp MINUS        &kp BACKSPACE                                        &mt LEFT_GUI ESC
             >;
         };
 
@@ -84,10 +84,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans          &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RC(V)       &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DOWN_ARROW  &kp RC(C)  &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &trans
+&trans  &trans  &trans     &trans     &trans                      &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)  &trans  &trans      &trans  &kp RC(C)  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans     &kp LC(V)  &trans  &trans      &trans  &kp RC(X)  &kp RC(V)  &trans     &trans     &trans
+&trans  &trans  &trans     &trans     &trans  &trans      &trans  &trans                                      &trans
             >;
         };
 
