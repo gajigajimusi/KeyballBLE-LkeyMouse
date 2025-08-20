@@ -21,6 +21,12 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <18 13>;
         };
+
+        hankakuzenkaku {
+            bindings = <&kp LANGUAGE_5>;
+            key-positions = <37 41>;
+            layers = <0>;
+        };
     };
 
     macros {
