@@ -32,6 +32,11 @@
             bindings = <&kp TAB>;
             key-positions = <21 10>;
         };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <40 38>;
+        };
     };
 
     macros {
