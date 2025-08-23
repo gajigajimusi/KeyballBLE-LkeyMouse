@@ -61,7 +61,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                                                      &kp Y          &kp U  &kp I      &kp O       &kp P
 &kp A             &kp S         &kp D         &kp F                   &kp G                   &kp TAB                                   &kp AT_SIGN              &kp H          &kp J  &kp K      &lt 5 L     &lt_to_layer_0 4 ENTER
-&mt LSHIFT Z      &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LC(Z)                    &kp LANG_ZENKAKUHANKAKU  &kp N          &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT QMARK
+&kp Z             &kp X         &kp C         &kp V                   &kp B                   &lt_to_layer_0 6 LC(Z)                    &kp LANG_ZENKAKUHANKAKU  &kp N          &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT QMARK
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANG_ZENKAKUHANKAKU      &kp MINUS                &kp BACKSPACE                                &kp ESC
             >;
         };
@@ -95,10 +95,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans     &trans     &trans                      &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)  &trans  &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5   &trans
-&trans  &trans  &trans     &kp LC(V)  &trans  &trans      &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans
-&trans  &trans  &trans     &trans     &trans  &trans      &trans  &trans                                   &trans
+&trans  &trans  &trans     &trans     &trans                         &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)  &trans     &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5   &trans
+&trans  &trans  &trans     &kp LC(V)  &trans     &trans      &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans
+&trans  &trans  &trans     &kp SPACE  &kp SPACE  &trans      &trans  &trans                                   &trans
             >;
         };
 
