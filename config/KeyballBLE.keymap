@@ -42,6 +42,12 @@
             bindings = <&to 2>;
             key-positions = <12 13>;
         };
+
+        mkurikku {
+            bindings = <&mkp MCLK>;
+            key-positions = <18 19 20>;
+            layers = <4>;
+        };
     };
 
     macros {
