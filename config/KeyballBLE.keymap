@@ -18,14 +18,8 @@
         compatible = "zmk,combos";
 
         double_quotation {
-            bindings = <&kp PRINTSCREEN>;
-            key-positions = <18 13>;
-        };
-
-        hankakuzenkaku {
             bindings = <&kp INT_HENKAN>;
-            key-positions = <37 41>;
-            layers = <0>;
+            key-positions = <18 13>;
         };
 
         tab {
@@ -39,14 +33,23 @@
         };
 
         a {
-            bindings = <&to 2>;
+            bindings = <&lt 2 LANG_ZENKAKUHANKAKU>;
             key-positions = <12 13>;
         };
 
-        mkurikku {
-            bindings = <&mkp MCLK>;
-            key-positions = <18 19 20>;
-            layers = <4>;
+        henkan {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <37 41>;
+        };
+
+        migikuri {
+            bindings = <&mkp MB3>;
+            key-positions = <19 18>;
+        };
+
+        syasin {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <19 17 18 14 12 13>;
         };
     };
 
