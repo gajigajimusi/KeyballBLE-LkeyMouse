@@ -57,6 +57,11 @@
             key-positions = <37 13>;
             layers = <0>;
         };
+
+        Clipboard {
+            bindings = <&kp RG(V)>;
+            key-positions = <15>;
+        };
     };
 
     macros {
