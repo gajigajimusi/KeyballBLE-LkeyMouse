@@ -54,7 +54,8 @@
 
         kurippubo-do {
             bindings = <&kp LG(V)>;
-            key-positions = <18 18 20 19>;
+            key-positions = <37 13>;
+            layers = <0>;
         };
     };
 
