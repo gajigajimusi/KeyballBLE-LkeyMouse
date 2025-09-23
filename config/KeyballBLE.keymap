@@ -62,6 +62,16 @@
             bindings = <&kp RG(V)>;
             key-positions = <15>;
         };
+
+        kasoumigi {
+            bindings = <&kp LC(LG(RIGHT))>;
+            key-positions = <18 19 20 21>;
+        };
+
+        kasouhidari {
+            bindings = <&kp LC(LG(LEFT_ARROW))>;
+            key-positions = <13 12 11 10>;
+        };
     };
 
     macros {
@@ -136,10 +146,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans     &trans     &trans                         &trans     &mkp MCLK  &trans     &trans  &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)  &trans     &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5   &trans
-&trans  &trans  &trans     &kp LC(V)  &trans     &trans      &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans
-&trans  &trans  &trans     &kp SPACE  &kp SPACE  &trans      &trans  &trans                                   &trans
+&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                         &trans     &mkp MCLK  &trans     &trans  &trans
+&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5   &trans
+&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans
+&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans  &trans                                   &trans
             >;
         };
 
