@@ -146,19 +146,19 @@
 
         MOUSE {
             bindings = <
-&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                         &trans     &mkp MCLK  &trans     &trans  &trans
-&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5   &trans
-&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans
-&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans  &trans                                   &trans
+&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                         &trans     &mkp MCLK  &trans     &trans           &trans
+&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK  &mo 5            &trans
+&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &trans  &kp LEFT   &mkp MB4   &mkp MB5   &kp RIGHT_ARROW  &trans
+&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans  &trans                                            &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4        &mkp MB5        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4        &mkp MB5        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
         };
 
