@@ -180,7 +180,7 @@
             >;
         };
 
-        layer_8 {
+        ZOOMlayer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
