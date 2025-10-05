@@ -146,19 +146,19 @@
 
         MOUSE {
             bindings = <
-&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                         &kp RC(W)     &mkp MCLK  &kp RA(TAB)  &trans           &trans
-&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &trans  &kp RC(TAB)   &mkp LCLK  &mkp RCLK    &to 5            &trans
-&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &trans  &kp LA(LEFT)  &mkp MB4   &mkp MB5     &kp RIGHT_ARROW  &trans
-&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans  &trans                                                 &trans
+&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                                &kp RC(W)     &mkp MCLK  &kp RA(TAB)  &trans           &trans
+&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &kp RC(PLUS)   &kp RC(TAB)   &mkp LCLK  &mkp RCLK    &to 5            &trans
+&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &kp RC(MINUS)  &kp LA(LEFT)  &mkp MB4   &mkp MB5     &kp RIGHT_ARROW  &trans
+&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans         &trans                                                 &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                            &kp RC(W)     &kp LEFT_ARROW  &kp RIGHT     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &kp RC(TAB)   &kp DOWN_ARROW  &kp UP_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &msc SCRL_UP  &kp RA(LEFT)  &mkp MB4        &mkp MB5      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans        &trans                                              &trans
+&trans  &trans  &trans  &trans  &trans                             &kp RC(W)     &kp LEFT_ARROW  &kp RIGHT     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RC(PLUS)   &kp RC(TAB)   &kp DOWN_ARROW  &kp UP_ARROW  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RC(MINUS)  &kp RA(LEFT)  &mkp MB4        &mkp MB5      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                              &trans
             >;
         };
 
