@@ -33,7 +33,7 @@
         };
 
         a {
-            bindings = <&lt 2 LANG_ZENKAKUHANKAKU>;
+            bindings = <&kp RC(Z)>;
             key-positions = <12 13>;
         };
 
@@ -56,11 +56,6 @@
             bindings = <&kp LG(V)>;
             key-positions = <37 13>;
             layers = <0>;
-        };
-
-        Clipboard {
-            bindings = <&kp RG(V)>;
-            key-positions = <15>;
         };
 
         kasoumigi {
@@ -146,10 +141,10 @@
 
         MOUSE {
             bindings = <
-&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                                &kp RC(W)     &mkp MCLK  &kp RA(TAB)  &trans           &trans
-&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &kp RC(PLUS)   &kp RC(TAB)   &mkp LCLK  &mkp RCLK    &to 5            &trans
-&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &kp RC(MINUS)  &kp LA(LEFT)  &mkp MB4   &mkp MB5     &kp RIGHT_ARROW  &trans
-&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans         &trans                                                 &trans
+&trans  &kp LG(LEFT)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans                                &kp RC(W)     &mkp MCLK  &kp RA(TAB)  &trans    &trans
+&trans  &trans        &kp LG(DOWN)      &kp LC(C)            &kp LC(X)  &trans      &kp RC(PLUS)   &kp RC(TAB)   &mkp LCLK  &mkp RCLK    &to 5     &trans
+&trans  &trans        &trans            &kp LC(V)            &trans     &trans      &kp RC(MINUS)  &kp LA(LEFT)  &mkp MB4   &mkp MB5     &mkp MB3  &trans
+&trans  &trans        &trans            &kp SPACE            &kp SPACE  &trans      &trans         &trans                                          &trans
             >;
         };
 
