@@ -33,7 +33,7 @@
         };
 
         a {
-            bindings = <&kp RC(Z)>;
+            bindings = <&mo 2>;
             key-positions = <12 13>;
         };
 
