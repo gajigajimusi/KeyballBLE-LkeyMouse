@@ -21,6 +21,21 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <18 13>;
         };
+
+        kasoumigi {
+            bindings = <&kp RC(RIGHT_ARROW)>;
+            key-positions = <21 20 19 18>;
+        };
+
+        kasouhidari {
+            bindings = <&kp LC(LEFT)>;
+            key-positions = <10 11 12 13>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 21>;
+        };
     };
 
     macros {
